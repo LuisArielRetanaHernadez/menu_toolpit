@@ -55,9 +55,11 @@ nav a:hover {
   left: 70px;
   font-weight: 600;
   color: #FFF;
+  opacity: 0;
   padding: 10px 20px;
   border-radius: 10px;
   background-color: #04364A;
+  transition: .2s;
 }
 
 .title::before {
@@ -69,4 +71,8 @@ nav a:hover {
   left: -5px;
   top: 35%;
   transform: rotate(-45deg);
+}
+
+nav a:hover .title { 
+  opacity: 1;
 }
