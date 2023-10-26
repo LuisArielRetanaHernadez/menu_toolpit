@@ -49,3 +49,24 @@ nav a:hover {
   background-color: #F5F7F8;
   color: #04364A;
 }
+
+.title { 
+  position: absolute;
+  left: 70px;
+  font-weight: 600;
+  color: #FFF;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #04364A;
+}
+
+.title::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: #04364A;
+  position: absolute;
+  left: -5px;
+  top: 35%;
+  transform: rotate(-45deg);
+}
